@@ -47,6 +47,7 @@
   },
   "pnpm": {
     "overrides": {
+      "parse5": "7.2.1",
       "**>ip": "npm:@eggjs/ip@latest",
       "@azure/msal-node": "^2.16.2",
       "@babel/traverse@<7.23.2": ">=7.23.2",
@@ -99,5 +100,8 @@
       "sqlite3",
       "vue-demi"
     ]
+  },
+  "dependencies": {
+    "pnpm": "^10.24.0"
   }
 }
