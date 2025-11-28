@@ -100,3 +100,8 @@ httpbin
 result
 
 .cursorignore
+packages/nc-gui/components.d.ts
+package-lock.json
+pnpm-lock.yaml
+packages/nc-gui/components.d.ts
+packages/nocodb/docker/main.js.map
