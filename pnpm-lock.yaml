@@ -308,7 +308,7 @@ importers:
         version: 1.3.2
       validator:
         specifier: ^13.12.0
-        version: 13.15.15
+        version: 13.15.20
       vue-advanced-cropper:
         specifier: ^2.8.9
         version: 2.8.9(vue@3.5.15(typescript@5.8.3))
@@ -604,7 +604,7 @@ importers:
         version: 5.0.8(eslint@8.57.1)(typescript@5.8.3)
       eslint-plugin-import:
         specifier: ^2.29.1
-        version: 2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.8.3))(eslint@8.57.1)
+        version: 2.31.0(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.8.3))(eslint@8.57.1)
       eslint-plugin-prettier:
         specifier: ^4.2.1
         version: 4.2.1(eslint-config-prettier@8.10.0(eslint@8.57.1))(eslint@8.57.1)(prettier@2.8.8)
@@ -961,7 +961,7 @@ importers:
         version: 11.1.0
       validator:
         specifier: ^13.12.0
-        version: 13.15.15
+        version: 13.15.20
       xlsx:
         specifier: https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz
         version: https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz
@@ -1112,7 +1112,7 @@ importers:
         version: 1.4.0
       validator:
         specifier: ^13.12.0
-        version: 13.15.15
+        version: 13.15.20
     devDependencies:
       '@types/jest':
         specifier: ^29.5.14
@@ -14396,8 +14396,12 @@ packages:
     resolution: {integrity: sha512-OljLrQ9SQdOUqTaQxqL5dEfZWrXExyyWsozYlAWFawPVNuD83igl7uJD2RTkNMbniIYgt8l81eCJGIdQF7avLQ==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
 
-  validator@13.15.15:
-    resolution: {integrity: sha512-BgWVbCI72aIQy937xbawcs+hrVaN/CZ2UwutgaJ36hGqRrLNM+f5LUT/YPRbo8IV/ASeFzXszezV+y2+rq3l8A==}
+  validator@13.15.20:
+    resolution: {integrity: sha512-KxPOq3V2LmfQPP4eqf3Mq/zrT0Dqp2Vmx2Bn285LwVahLc+CsxOM0crBHczm8ijlcjZ0Q5Xd6LW3z3odTPnlrw==}
+    engines: {node: '>= 0.10'}
+
+  validator@13.15.23:
+    resolution: {integrity: sha512-4yoz1kEWqUjzi5zsPbAS/903QXSYp0UOtHsPpp7p9rHAw/W+dkInskAE386Fat3oKRROwO98d9ZB0G4cObgUyw==}
     engines: {node: '>= 0.10'}
 
   vary@1.1.2:
@@ -22266,7 +22270,7 @@ snapshots:
     dependencies:
       '@types/validator': 13.15.1
       libphonenumber-js: 1.12.8
-      validator: 13.15.15
+      validator: 13.15.23
 
   classnames@2.5.1: {}
 
@@ -31325,7 +31329,9 @@ snapshots:
 
   validate-npm-package-name@5.0.1: {}
 
-  validator@13.15.15: {}
+  validator@13.15.20: {}
+
+  validator@13.15.23: {}
 
   vary@1.1.2: {}
 
