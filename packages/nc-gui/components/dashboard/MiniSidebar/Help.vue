@@ -61,33 +61,10 @@ const helpItems = computed<CategoryItemType[]>(() => {
       ],
     },
     {
-      category: t('general.community'),
-      items: [
-        {
-          title: t('title.forum'),
-          icon: 'ncDiscordForum',
-          e: 'c:nocodb:forum-open',
-          link: 'https://community.nocodb.com/',
-        },
-        {
-          title: t('general.youtube'),
-          icon: 'ncYoutube',
-          e: 'c:nocodb:youtube-open',
-          link: 'https://www.youtube.com/@nocodb',
-        },
-        {
-          title: 'X',
-          icon: 'ncLogoTwitter',
-          link: 'https://twitter.com/nocodb',
-          e: 'c:nocodb:twitter',
-        },
-      ],
-    },
-    {
       category: t('general.contactSupport'),
       items: [
         {
-          title: 'support@nocodb.com',
+          title: 'tabs@hackclub.com',
           icon: 'ncMail',
           e: 'c:nocodb:contact-us-mail-copy',
           link: '',
@@ -96,19 +73,6 @@ const helpItems = computed<CategoryItemType[]>(() => {
         },
       ],
       hidden: !isEeUI,
-    },
-    {
-      category: t('title.whatsNew'),
-      items: [
-        {
-          title: t('general.changelog'),
-          icon: 'ncList',
-          e: 'c:nocodb:changelog-open',
-          link: '',
-          onClick: () => navigateToFeed(undefined, undefined, { tab: 'github' }),
-        },
-      ],
-      hidden: !!isMobileMode.value,
     },
   ]
 })
